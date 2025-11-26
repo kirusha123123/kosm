@@ -17,7 +17,7 @@ body {
 }
         
 .star {
-    position: fixed; /* Важно: fixed чтобы звезды были на фоне */
+    position: fixed; 
     background: white;
     border-radius: 50%;
     animation: twinkle 3s infinite;
@@ -38,7 +38,7 @@ body {
             position: fixed;
             bottom: 100px;
             left: 100px;
-            width: 80px; /* Настрой размер под свою SVG */
+            width: 80px; 
             height: 120px;
             transition: all 3s cubic-bezier(0.2, 0.8, 0.2, 1);
             z-index: 1000;
@@ -47,7 +47,7 @@ body {
 #saturn{
     margin-left: 450px;
     padding: 100;
-    background-size: cover; /* или contain, в зависимости от нужного эффекта */
+    background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
     height: 100px;
@@ -58,7 +58,7 @@ body {
     margin-right: 1300px;
     margin-top: 320px;
     padding: 50;
-    background-size: cover; /* или contain, в зависимости от нужного эффекта */
+    background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
     height: 150px;
@@ -69,7 +69,7 @@ body {
     margin-right: 700px;
     margin-top: 20px;
     padding: 50;
-    background-size: cover; /* или contain, в зависимости от нужного эффекта */
+    background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
     height: 150px;
@@ -80,7 +80,7 @@ body {
     left: 1400px;
     top: 500px;
     padding: 5px;
-    background-size: cover; /* или contain, в зависимости от нужного эффекта */
+    background-size: cover; 
     background-repeat: no-repeat;
     position: absolute;
     height: 150px;
@@ -91,10 +91,24 @@ body {
     left: 1000px;
     top: 100px;
     padding: 5px;
-    background-size: cover; /* или contain, в зависимости от нужного эффекта */
+    background-size: cover; 
     background-repeat: no-repeat;
     position: absolute;
     height: 150px;
     width: 150px;
     background-image:url(neptune.svg);
+}
+.background_sect2 {
+    background-color: #93e9ff;
+    opacity: 20%;
+    margin-top: 4px;
+    height: 900px;
+    background-repeat: no-repeat;
+}
+#Empty_shield{
+    background-image:url(duotone-shield-empty-svgrepo-com.svg);
+    background-size: 31px;     
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: absolute;
 }
